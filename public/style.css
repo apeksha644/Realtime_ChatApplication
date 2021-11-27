@@ -1,37 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Robotodisplay=swap');
+
+*
+{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-body {
+body
+{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background-color: #6b5b95;
-    font-family: 'Roboto', sans-serif;
+   
+   background-color: #6b5b95;
+    height: 100%; 
+  
 }
-section.chat__section {
-    width: 800px;
-    max-width: 90%;
-    background:#878f99;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+
+section.chatsection
+{
+   width: 800px; 
+   max-width: 90%;
+   background:#878f99;
+   box-shadow: 0 10px 15px -3px rgba(10,200,0, 0.1),0  4px  6px -2px rgba(0, 0, 0, 0.05);  
 }
-.brand {
+
+.brand
+{
     padding: 20px;
     background:#b2ad7f ;
     display: flex;
     align-items: center;
 }
-.brand h1 {
+.brand h1{
     text-transform: uppercase;
     font-size: 20px;
-    color: #444;
+    color:#444;
     margin-left: 10px;
 }
-.message__area{
+.message_area
+{
     height: 500px;
     padding: 16px;
     display: flex;
@@ -39,35 +48,37 @@ section.chat__section {
     overflow-y: auto;
     padding-top: 40px;
 }
-textarea {
+textarea{
     width: 100%;
     border: none;
     padding: 20px;
     font-size: 16px;
     outline: none;
-    background: #FBFBFB;
+    background: pink;
 }
-
-.message {
-    padding: 20px; 
-    border-radius: 4px; 
+.message
+{
+    padding: 20px;
+    border-radius: 4px;
     margin-bottom: 40px;
     max-width: 300px;
     position: relative;
 }
-.incoming {
-    background: #8F8BE8;
-    color: #fff;  
+.inmsg
+{
+    background: red;
+    color:yellow;
 }
-.outgoing {
-    background: #e9eafd;
-    color: #787986;
-    margin-left: auto;
+.outmsg
+{
+    background:green;
+    color:violet;
+    margin-left: auto; 
 }
-.message h4 {
+.message h4{
     position: absolute;
-    top: -20px;
-    left: 0;
-    color: #333;
+    top:-20px;
+    left:0;
+    color:#333;
     font-size: 14px;
 }
